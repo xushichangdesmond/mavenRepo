@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "powerdancer.databean",
+    "module": "databean-jackson",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "gjb7sipavbejplwipastu4zsmi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 14,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "powerdancer.databean",
+          "module": "databean-core",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "databean-jackson-1.0.jar",
+          "url": "databean-jackson-1.0.jar",
+          "size": 9869,
+          "sha512": "a324a3e3672844e98814a2f156848ebb25d74ea3ceb6cc18f19e6963d58194b147786b1ae284b9c038fd102a445cbaddd7511d555ec9a4a9d161989e33eda74b",
+          "sha256": "b1d8f3719ed45accec53dbea938a312e669524d45509b42d6a9eecb93352ffd2",
+          "sha1": "f0d88c19d2216f12d5f29672ff49adec9dc25505",
+          "md5": "e8ef2164b7f758899a9d92f97ff9479e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 14,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "powerdancer.databean",
+          "module": "databean-core",
+          "version": {
+            "requires": "1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "databean-jackson-1.0.jar",
+          "url": "databean-jackson-1.0.jar",
+          "size": 9869,
+          "sha512": "a324a3e3672844e98814a2f156848ebb25d74ea3ceb6cc18f19e6963d58194b147786b1ae284b9c038fd102a445cbaddd7511d555ec9a4a9d161989e33eda74b",
+          "sha256": "b1d8f3719ed45accec53dbea938a312e669524d45509b42d6a9eecb93352ffd2",
+          "sha1": "f0d88c19d2216f12d5f29672ff49adec9dc25505",
+          "md5": "e8ef2164b7f758899a9d92f97ff9479e"
+        }
+      ]
+    }
+  ]
+}

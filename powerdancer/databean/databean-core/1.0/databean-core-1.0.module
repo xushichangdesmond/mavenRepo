@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "powerdancer.databean",
+    "module": "databean-core",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "hbstrmbvfneolg3hlysz7dfpz4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 14,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "powerdancer.asmproxy",
+          "module": "asm-proxy",
+          "version": {
+            "requires": "3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "databean-core-1.0.jar",
+          "url": "databean-core-1.0.jar",
+          "size": 12802,
+          "sha512": "db4160ad819a4b28afafdecfe187ca8d1edb38ac0a0d1ae4a7f6a8812de1f6eae2965a1f2b36735d367701bf34d4138992b4767b8bba0024bcb74323d1dbe467",
+          "sha256": "113154d9387293a85a3937a1499fcc170016ddd36091c70a787ac5c8933f191a",
+          "sha1": "6b51cfef98128c56cc43d49fac42d52f0c1313f8",
+          "md5": "472f0308ca4f42163cdc946aecae7a6c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 14,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "powerdancer.asmproxy",
+          "module": "asm-proxy",
+          "version": {
+            "requires": "3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "databean-core-1.0.jar",
+          "url": "databean-core-1.0.jar",
+          "size": 12802,
+          "sha512": "db4160ad819a4b28afafdecfe187ca8d1edb38ac0a0d1ae4a7f6a8812de1f6eae2965a1f2b36735d367701bf34d4138992b4767b8bba0024bcb74323d1dbe467",
+          "sha256": "113154d9387293a85a3937a1499fcc170016ddd36091c70a787ac5c8933f191a",
+          "sha1": "6b51cfef98128c56cc43d49fac42d52f0c1313f8",
+          "md5": "472f0308ca4f42163cdc946aecae7a6c"
+        }
+      ]
+    }
+  ]
+}

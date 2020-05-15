@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "powerdancer.asmproxy",
+    "module": "asm-proxy",
+    "version": "3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "a4kgz2wcjzhrraapkhu36pi5py"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 14,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "asm-proxy-3.0.jar",
+          "url": "asm-proxy-3.0.jar",
+          "size": 16818,
+          "sha512": "4f38f2bc4c1522cff9525e68b517a578d1767388b6fc7a390e3ae772c5339cd97276359ffe2f35c909615bf38209c3c744a9cc0fb575e3e898dca443b19db00b",
+          "sha256": "f767cf8d2ad98efd30b9428808006994c42ff55b5534c730d408b770decc7e6d",
+          "sha1": "265064678df08404972603bdc05593760f0ad95d",
+          "md5": "e5eb9a11967a9427dc5f52c6d09736b6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 14,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "8.0.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "8.0.1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "asm-proxy-3.0.jar",
+          "url": "asm-proxy-3.0.jar",
+          "size": 16818,
+          "sha512": "4f38f2bc4c1522cff9525e68b517a578d1767388b6fc7a390e3ae772c5339cd97276359ffe2f35c909615bf38209c3c744a9cc0fb575e3e898dca443b19db00b",
+          "sha256": "f767cf8d2ad98efd30b9428808006994c42ff55b5534c730d408b770decc7e6d",
+          "sha1": "265064678df08404972603bdc05593760f0ad95d",
+          "md5": "e5eb9a11967a9427dc5f52c6d09736b6"
+        }
+      ]
+    }
+  ]
+}
