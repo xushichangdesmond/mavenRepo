@@ -1,0 +1,61 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "powerdancer.serializable",
+    "module": "serializable",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "j7fi3vjr4vap5kzvqh2ixmvc6m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 14,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "serializable-1.0.jar",
+          "url": "serializable-1.0.jar",
+          "size": 9808,
+          "sha512": "9fbc538e7193c71bb4712108b50ca410a2406806f1702345124d6f5d09378c197a5d08e5dc42105561568554ae6c0d805e1ca14e2ff010ac0dbddf351228c099",
+          "sha256": "49950c241f05f4d55910bd6bde156f94f73dd675131d3678a4f0818d9e27f274",
+          "sha1": "3d7c545851e003ec45b44b73970f7c46a33163c7",
+          "md5": "dd0cd4b5b49389f11f496cdff50fd273"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 14,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "serializable-1.0.jar",
+          "url": "serializable-1.0.jar",
+          "size": 9808,
+          "sha512": "9fbc538e7193c71bb4712108b50ca410a2406806f1702345124d6f5d09378c197a5d08e5dc42105561568554ae6c0d805e1ca14e2ff010ac0dbddf351228c099",
+          "sha256": "49950c241f05f4d55910bd6bde156f94f73dd675131d3678a4f0818d9e27f274",
+          "sha1": "3d7c545851e003ec45b44b73970f7c46a33163c7",
+          "md5": "dd0cd4b5b49389f11f496cdff50fd273"
+        }
+      ]
+    }
+  ]
+}
